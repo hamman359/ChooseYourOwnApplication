@@ -1,0 +1,44 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30110.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{D735EA2E-48DB-441B-B912-B5ACFFE12304}"
+	ProjectSection(SolutionItems) = preProject
+		index.html = index.html
+		overflow.css = overflow.css
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "images", "images", "{012B3284-2F58-4904-B46D-010040E48825}"
+	ProjectSection(SolutionItems) = preProject
+		images\bg.png = images\bg.png
+		images\cyOverflow.png = images\cyOverflow.png
+		images\nav_bg.png = images\nav_bg.png
+		images\selected_down.png = images\selected_down.png
+		images\selected_up.png = images\selected_up.png
+		images\unselected_down.png = images\unselected_down.png
+		images\unselected_up.png = images\unselected_up.png
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "scripts", "scripts", "{407422C1-1482-47E1-ADD0-FD265457AF89}"
+	ProjectSection(SolutionItems) = preProject
+		scripts\app.js = scripts\app.js
+		scripts\namespaces.js = scripts\namespaces.js
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "vendor", "vendor", "{DA4C64A5-E1C8-4081-B982-00C755CC7174}"
+	ProjectSection(SolutionItems) = preProject
+		vendor\jquery-1.8.2.min.js = vendor\jquery-1.8.2.min.js
+		vendor\underscore-min.js = vendor\underscore-min.js
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{012B3284-2F58-4904-B46D-010040E48825} = {D735EA2E-48DB-441B-B912-B5ACFFE12304}
+		{407422C1-1482-47E1-ADD0-FD265457AF89} = {D735EA2E-48DB-441B-B912-B5ACFFE12304}
+		{DA4C64A5-E1C8-4081-B982-00C755CC7174} = {D735EA2E-48DB-441B-B912-B5ACFFE12304}
+	EndGlobalSection
+EndGlobal
